@@ -1,10 +1,13 @@
-# React + TypeScript + Vite Boilerplate
+# React + TypeScript + Vite Solid Boilerplate
 
-This is a simple boilerplate for React + TypeScript + Vite that uses ESLint and Prettier for linting and formatting. Also this setup uses husky and lint-staged to run ESLint and Prettier on pre-commit.
+This project is a boilerplate setup for building web applications using React, TypeScript, and Vite. It provides a pre-configured environment with essential tools and configurations to streamline the development process. The boilerplate includes:
 
-I configured this setup so we have Dockerfile and docker-compose.yml and also nginx pre-configured to serve the app in production.
+- **Husky**: To manage Git hooks (pre-commit, pre-push, etc...).
+- **Lint-staged**: To run linters on staged files.
+- **Docker**: To containerize the application for production.
+- **Nginx**: To serve the application in the Docker container.
 
-You can use this boilerplate to start your project with React + TypeScript + Vite and extend it as you need.
+By using this boilerplate, you can quickly set up a new project with a solid foundation and focus on building your application features.
 
 ## Getting Started
 
@@ -15,7 +18,7 @@ You can use this boilerplate to start your project with React + TypeScript + Vit
 ### Installation
 
 1. Clone the repository:
-   `git clone https://github.com/ako-v/vite-boilerplate.git`
+   `git clone https://github.com/ako-v/vite-react-boilerplate.git`
 
 2. Install dependencies:
    `npm install`
