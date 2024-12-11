@@ -24,10 +24,11 @@ export default tseslint.config(
       "spaced-comment": "error",
       quotes: ["error", "double", { avoidEscape: true }],
       "no-duplicate-imports": "error",
-      "@typescript-eslint/no-empty-interface": [
+      "@typescript-eslint/no-empty-object-type": [
         "error",
         {
-          allowSingleExtends: true,
+          allowInterfaces: "always",
+          allowObjectTypes: "always",
         },
       ],
       "@typescript-eslint/no-explicit-any": "off",

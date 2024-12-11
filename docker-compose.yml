@@ -1,0 +1,22 @@
+version: "3.8"
+name: vite-boilerplate
+
+services:
+  staging:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: server
+    image: boilerplate:staging
+    container_name: boilerplate-staging
+    ports:
+      - "3001:80"
+  production:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: server
+    image: boilerplate:production
+    container_name: boilerplate-production
+    ports:
+      - "3000:80"
